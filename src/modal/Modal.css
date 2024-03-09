@@ -1,0 +1,65 @@
+.cd-popup{
+    background-color: #fff;
+    width: 500px;
+    height: 100px;
+    margin: 40px auto;
+    text-align: center;
+    position: relative;
+}
+
+p{
+    margin-top: 30px;
+}
+
+.cd-buttons{
+    list-style-type: none;
+    display: flex;
+    background-color: chocolate;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 80px;
+}
+
+ul > li{
+    display: flex;
+}
+
+ul > li:nth-child(1){
+    width: 100%;
+    height: 100%;
+    margin-left: -40px;
+}
+
+ul > li:nth-child(2){
+    width: 100%;
+    height: 100%;
+}
+
+
+ ul > li > a{
+    text-decoration: none;
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    transition: 0.3s all;
+}
+
+ul > li > a:hover{
+    background-color: rgba(200, 200, 200, 0.5);
+}
+
+.cd-popup-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-decoration: none;
+    color: #ccc;
+}
+
+.cd-popup-close:hover{
+    background-color: rgba(155,0,0,0.4);
+    border-radius: 50%;
+    color: rgba(10, 10, 10, 0.3);
+}
