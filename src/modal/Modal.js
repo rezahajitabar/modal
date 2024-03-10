@@ -1,5 +1,6 @@
 import React from 'react'
 import './Modal.css'
+import propTypes from 'prop-types'
 export default class Modal extends React.Component {
   
   render(){
@@ -24,3 +25,4 @@ export default class Modal extends React.Component {
 Modal.defaultProps= {
 message:'شما با موفقیت وارد پنل کاربریتان شدید'
 }
+

@@ -4,7 +4,7 @@ import Modal from './modal/Modal';
 function App() {
   return (
     <div className='container'>
-     <Modal/>
+     <Modal message={12}/>
     
     </div>
   );
